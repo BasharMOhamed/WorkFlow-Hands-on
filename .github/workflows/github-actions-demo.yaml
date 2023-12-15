@@ -1,0 +1,8 @@
+name : Github Actions Demo
+on: push
+jobs:
+  Explore-Github-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print any thing
+        run: echo "print any thing"
